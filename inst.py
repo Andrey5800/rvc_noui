@@ -11,7 +11,5 @@ subprocess.run(["pip3", "install", "faiss-cpu==1.7.2", "fairseq", "gradio==3.14.
 
 subprocess.run(["pip3", "install", "torch", "torchvision", "torchaudio"])
 
-subprocess.run(["mkdir", "rmvpe-ai"])
-os.chdir("/kaggle/working/rmvpe-ai")
 
 subprocess.run(["pip", "install", "-r", "requirements.txt"])
